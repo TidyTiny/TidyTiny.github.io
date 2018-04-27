@@ -8,12 +8,16 @@ body{
 	font-family:"Arial Black", Gadget, sans-serif;
 	}
 
+
 /*设置页面主体部分*/	
 #wrapper{
 	max-width:940px;
 	margin:0 auto;
-	padding:0 5%;
+	padding:5% 5%;
 	}
+
+
+
 
 /*将超链接的下划线取消*/
 a {
@@ -36,23 +40,23 @@ HEADING
 ******************* */
 
 header{
-	float:left;
-	margin:0 0 30px 0;
-	padding:5px 0 0 0;
+	float:right;
+	margin:0 0 90px 0;
+	padding:0 0;
 	width:100%;
 	}
 
 
 /*设置页面大标题和2级标题*/
 #logo{
-	text-align:center;
-	margin:0;
+	text-align:left;
+	margin:0 0 0 0;
+	padding:1% 0 0 7%;
 	}
 	
 h1{
 	font-family:"Comic Sans MS", cursive;
-	margin:15px 0;
-	font-size:1.75em;
+	font-size:1.8em;
 	font-weight:normal;
 	line-height:0.8em;
 	}
@@ -68,23 +72,27 @@ NAVIGATION
 ******************* */
 
 nav{
-	text-align:center;
-	padding:10px 0;
-	margin:20px 0 0;
+	padding:0 0 0 0;
+	margin:0 0 0;
 	}
 
 nav ul{
 	list-style:none;
-	margin:0 10px;
+	margin:0 25px;
 	padding:0;
+	text-align:right;
+	position:fixed;
 	}
 	
 nav li{
+	font-family:"Comic Sans MS", cursive;
+	font-size:1.4em;
 	display:inline-block;
+	padding:4.5% 0 3px 0;
 	}
 	
 nav a{
-	font-weight:900;
+	font-weight:800;
 	padding:15px 20px;
 	}
 
@@ -98,6 +106,7 @@ footer{
 	text-align:center;
 	clear:both;
 	padding-top:50px;
+	background-color:#999
 	color:#ccc;
 	}
 .social-icon{
@@ -199,17 +208,18 @@ body{
 	}
 	
 header{
-	background:#6ab47b;
-	border-color:#599a68;
+	background:#fff;
+	border-color:#fff;
 	}
+	
 	
 /*导航背景*/
 nav{
-	background:#599a68;
+	background:rgba(51,153,255,0.2);
 	}
 	
 h1,h2{
-	color:#fff;
+	color:#000;
 	
 	}
 
@@ -220,7 +230,7 @@ a {
 
 /*导航颜色*/	
 nav a{
-	color:#fff;
+	color:#888;
 	}
 /*导航被选中时的颜色*/
 nav a:hover{
@@ -230,4 +240,28 @@ nav a:hover{
 /*提示用户当前的页面是哪一个*/
 .selected{
 	color:#32673f;
+	}
+
+/*定义Tiny的颜色*/
+
+.title{
+	color:#32673f;
+	}
+
+
+/*定义下拉菜单的格式*/
+
+.drop-down-content{
+	padding:0;
+	display:none;
+	}
+
+.drop-down-content li{
+	font-size:0.9em;
+	display:inline-block;
+	}
+
+	
+.drop-down:hover .drop-down-content{
+	display:block;
 	}
