@@ -11,7 +11,7 @@ body{
 
 /*设置页面主体部分*/	
 #wrapper{
-	max-width:940px;
+	max-width:950px;
 	margin:0 auto;
 	padding:5% 5%;
 	}
@@ -41,8 +41,9 @@ HEADING
 
 header{
 	float:right;
-	margin:0 0 90px 0;
-	padding:0 0;
+	margin:-7px 0 150px 0;
+	padding:0;
+	border:0;
 	width:100%;
 	}
 
@@ -62,7 +63,8 @@ h1{
 	}
 
 h2{
-	font-size:0.75em;
+	font-family:"Comic Sans MS", cursive;
+	font-size:2em;
 	margin:-5px 0 0;
 	font-weight:normal;
 	}
@@ -95,6 +97,28 @@ nav a{
 	font-weight:800;
 	padding:15px 20px;
 	}
+
+/*定义导航栏的两张照片的重叠*/
+
+.top{
+	height:50%;
+	}
+
+
+.me{
+	position:absolute;
+	top:35%;
+	left:15%;
+	border-radius:10%;
+	}
+	
+/*定义座右铭的位置*/
+.motto{
+	position:absolute;
+	top:59%;
+	left:29.5%;
+	}
+
 
 /* *******************
 FOOTER
@@ -215,7 +239,7 @@ header{
 	
 /*导航背景*/
 nav{
-	background:rgba(51,153,255,0.2);
+	background-color:rgba(51,153,255,0.2);
 	}
 	
 h1,h2{
@@ -265,3 +289,9 @@ nav a:hover{
 .drop-down:hover .drop-down-content{
 	display:block;
 	}
+	
+*{
+ 	padding:0px;
+ 	margin:0px;
+ 	border:0px;
+ }
