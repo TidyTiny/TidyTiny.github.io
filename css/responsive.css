@@ -16,13 +16,15 @@
 	.me{
 		position:absolute;
 		top:70px;
-		left:30px;
+		left:5%;
 		width:25%;
+		height:120px;
 		}
 		
 	.motto{
 		font-size:0.9em;
-		margin:2% 150px 0 130px;
+		width:40%;
+		margin:8% 25% 0 35%;
 		}
 		
 	nav li{
