@@ -64,7 +64,7 @@ h1{
 
 h2{
 	font-family:"Comic Sans MS", cursive;
-	font-size:2em;
+	font-size:1.5em;
 	margin:-5px 0 0;
 	font-weight:normal;
 	}
@@ -108,16 +108,17 @@ nav a{
 
 .me{
 	position:absolute;
-	top:32%;
+	width:12%;
+	height:30%;
+	top:300px;
 	left:12%;
 	border-radius:10%;
 	}
 	
 /*定义座右铭的位置*/
 .motto{
-	position:absolute;
-	top:57.5%;
-	left:29.5%;
+	float:none;
+	margin:3% 28% 0 28%;
 	}
 
 
