@@ -10,6 +10,15 @@ body{
 
 
 /*设置页面主体部分*/
+
+#wrapper{
+	max-width:1150px;
+	}
+	
+#wrapper p{
+	text-align:center;
+	}
+
 #code{
 	max-width:1150px;
 	margin:0 auto;
@@ -20,6 +29,24 @@ body{
 	max-width:1150px;
 	margin:0 auto;
 	padding:5% 5%;
+	}
+	
+#app p{
+	font-size:1.2em;
+	text-align:center;
+	padding:5px 15px;
+	}
+	
+#about{
+	max-width:1150px;
+	margin:0 auto;
+	padding:5% 5%;
+	}
+	
+#about p{
+	font-size:1.2em;
+	text-align:left;
+	padding:5px 15px;
 	}
 
 #game{
@@ -43,6 +70,11 @@ body{
 #title4{
 	clear:both;
 	}
+	
+#title5{
+	text-align:2em;
+	}
+
 
 
 /*将超链接的下划线取消*/
@@ -51,6 +83,7 @@ a {
 	}
 
 h3{
+	font-size:1.3em;
 	margin:0 0 1em 0;
 	}
 
@@ -252,8 +285,8 @@ PAGE CONTACT
 	}
 
 
-.contact-info li.phone a{
-	background-image:url('../img/phone.png')
+.contact-info li.github a{
+	background-image:url('../img/github.png')
 	}
 	
 .contact-info li.mail a{

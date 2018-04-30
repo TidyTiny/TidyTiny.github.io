@@ -2,15 +2,16 @@
 	/* *******************
 	TWO COLUMN LAYOUT
 	******************* */
+	#about p{
+		font-size:0.75em;
+		}
 	
-	#pramary{
-		width:50%;
-		float:left;
+	#app p{
+		font-size:0.75em;
 		}
 		
-	#secondary{
-		width:40%;
-		float:right;
+	h3{
+		font-size:1em;
 		}
 		
 		
