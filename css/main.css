@@ -9,14 +9,40 @@ body{
 	}
 
 
-/*设置页面主体部分*/	
-#wrapper{
-	max-width:950px;
+/*设置页面主体部分*/
+#code{
+	max-width:1150px;
 	margin:0 auto;
 	padding:5% 5%;
 	}
 
+#app{
+	max-width:1150px;
+	margin:0 auto;
+	padding:5% 5%;
+	}
 
+#game{
+	max-width:1150px;
+	margin:0 auto;
+	padding:5% 5%;
+	}
+
+#title1{
+	clear:both;
+	}
+
+#title2{
+	clear:both;
+	}
+	
+#title3{
+	clear:both;
+	}
+	
+#title4{
+	clear:both;
+	}
 
 
 /*将超链接的下划线取消*/
@@ -79,8 +105,9 @@ nav{
 	}
 
 nav ul{
+	width:100%;
 	list-style:none;
-	margin:0 25px;
+	margin:0;
 	padding:0;
 	text-align:right;
 	position:fixed;
@@ -90,7 +117,7 @@ nav li{
 	font-family:"Comic Sans MS", cursive;
 	font-size:1.4em;
 	display:inline-block;
-	padding:4.5% 0 3px 0;
+	padding:1% 0 1% 0;
 	}
 	
 nav a{
@@ -105,12 +132,12 @@ nav a{
 	width:100%;
 	}
 
-
+/*定义主页的头像*/
 .me{
 	position:absolute;
 	width:12%;
-	height:30%;
-	top:300px;
+	height:32%;
+	top:280px;
 	left:12%;
 	border-radius:10%;
 	}
@@ -128,12 +155,13 @@ FOOTER
 
 
 footer{
-	font-size:0.75em;
+	font-size:1em;
 	text-align:center;
 	clear:both;
-	padding-top:50px;
-	background-color:#999
-	color:#ccc;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color:#999;
+	color:#fff;
 	}
 .social-icon{
 	width:30px;
@@ -149,6 +177,13 @@ PAGE VEDIO
 	margin:0;
 	padding:0;
 	list-style:none;
+	display:flex;
+	flex-wrap:wrap;
+	align-items:flex-end;
+	}
+	
+#gallery li a img{
+	flex-grow:1;
 	}
 
 #gallery li{
@@ -157,6 +192,16 @@ PAGE VEDIO
 	margin:2.5%;
 	background-color:#f5f5f5;
 	color:#bdc3c7;
+	}
+
+#photo1{
+	width:95%;
+	margin:2.5%;
+	}
+	
+#photo4{
+	width:95%;
+	margin:2.5%;
 	}
 
 #gallery li a p{
@@ -240,8 +285,8 @@ header{
 	
 	
 /*导航背景*/
-nav{
-	background-color:rgba(51,153,255,0.2);
+nav ul{
+	background-color:#afdfe4;
 	}
 	
 h1,h2{
@@ -278,13 +323,19 @@ nav a:hover{
 /*定义下拉菜单的格式*/
 
 .drop-down-content{
-	padding:0;
+	text-align:left;
+	list-style-type:none;
+	margin:1% 0 0 0;
+	padding:0.5% 0.5%;
 	display:none;
+	background-color:#fff;
+	width:130px;
 	}
 
 .drop-down-content li{
 	font-size:0.9em;
 	display:inline-block;
+	margin:0.25%;
 	}
 
 	

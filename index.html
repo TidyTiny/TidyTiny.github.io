@@ -3,8 +3,11 @@
 	<head>
     	<meta charset = "utf-8">
     	<title>Tiny | work</title>
+        <link rel = "stylesheet" href = "css/swiper.min.css">
+		<link rel = "stylesheet" href = "css/swiper.css">
         <link rel = "stylesheet" href = "css/main.css">
         <link rel = "stylesheet" href = "css/responsive.css">
+        <script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
 	</head>
 	<body>
@@ -14,10 +17,10 @@
                 <li><a href = "index.html" class="title">Tiny</a></li>
             	<li class="drop-down"><a href = "index.html" class = "selected">Works</a>
                 	<ul class = "drop-down-content">
-            			<li><a href="photo">Photos</a></li>
-            			<li><a href="Code">Programs</a></li>
-            			<li><a href="app">Apps</a></li>
-            			<li><a href="game">Games</a></li>
+            			<li><a href="#gallery">Photos</a></li>
+            			<li><a href="#code">Programs</a></li>
+            			<li><a href="#app">Apps</a></li>
+            			<li><a href="#game">Games</a></li>
         			</ul>
                 </li>
                 <li><a href = "about.html">About</a></li>
@@ -28,43 +31,70 @@
         <img src = "img/me.png" alt = "" class="me">
         <h2 class="motto">Nothing great was ever achieved without enthusiasm.</h2>
     </header>
-    <div id = "wrapper">
-        <section>
-            <ul id = "gallery">
-                <li>
-                    <a href = "img/fig1.jpg">
-                        <img src = "img/fig1.jpg" alt = "">
-                        <p>Python</p>
-                    </a>
-                </li>
-                <li>
-                    <a href = "img/fig2.jpg">
-                        <img src = "img/fig2.jpg" alt = "">
-                        <p>Java</p>
-                    </a>
-                </li>
-                <li>
-                    <a href = "img/fig3.jpg">
-                        <img src = "img/fig3.jpg" alt = "">
-                        <p>Github</p>
-                    </a>
-                </li>
-                <li>
-                    <a href = "img/fig4.jpg">
-                        <img src = "img/fig4.jpg" alt = "">
-                        <p>PHP</p>
-                    </a>
-                </li>
-            </ul>
-        </section>
-        <footer>
-            <a href = "http://www.QQ.com"><img src = 
-    "img/QQ.png" alt = "QQ" class = "social-icon"></a>
-            <a href = "http://www.weixin.com"><img src = "img/weixin.png" alt = "微信" class = "social-icon"></a>
-            <a href = "http://www.weibo.com"><img src = "img/weibo.png" alt = "微博" class = "social-icon"></a>
-            <p>&copy; 2018 GYM</p>
-        </footer>
-    </div>
-	</body>
     
+    <!-- Swiper -->
+	<section class="pc-banner">
+    	<h3>Photo</h3>
+		<div class="swiper-container">
+        	<div class="swiper-wrapper">
+            	<div class="swiper-slide swiper-slide-center none-effect"><a href="#"><img src="img/IMG_6850.png" ><p>The summer of 2016 in Bali</p></a></div>
+            	<div class="swiper-slide"><a href="#"><img src="img/IMG_6894.png" ><p>The summer of 2016 in Bali</p></a></div>
+            	<div class="swiper-slide"><a href="#"><img src="img/IMG_8820.png" ><p>The winter of 2017 in Xuexiang</p></a></div>
+            	<div class="swiper-slide"><a href="#"><img src="img/IMG_8862.png" ><p>The winter of 2017 in Xuexiang</p></a></div>
+            	<div class="swiper-slide"><a href="#"><img src="img/IMG_6917_1.png" ><p>The summer of 2016 in Bali</p></a></div>
+        	</div>
+    	</div>
+    <div class="swiper-pagination"></div>
+		<div class="button">
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		</div>
+	</section>
+
+	<!-- Swiper JS -->
+	<script src="js/swiper.min.js"></script>
+    
+    <!-- Initialize Swiper -->
+    <script>
+    window.onload = function() {
+    var swiper = new Swiper('.swiper-container',{
+        autoplay:3000,
+        speed:1000,
+        autoplayDisableOnInteraction : false,
+        loop:true,
+        centeredSlides : true,
+        slidesPerView:2,
+        pagination : '.swiper-pagination',
+        paginationClickable:true,
+        prevButton:'.swiper-button-prev',
+        nextButton:'.swiper-button-next',
+        onInit:function(swiper){
+            swiper.slides[2].className="swiper-slide swiper-slide-active";//第一次打开不要动画
+            },
+        breakpoints: { 
+                668: {
+                    slidesPerView: 1,
+                 }
+            }
+        });
+        }
+    </script>
+
+    <div id = "code">
+        <h3 id = "title2">Programs</h3>
+    </div>
+    <div id = "app">
+        <h3 id = "title3">Apps</h3>
+    </div>
+    <div id = "game">
+        <h3 id = "title4">Games</h3>
+    </div>
+    <footer>
+    	<a href = "http://www.QQ.com"><img src = 
+    "img/QQ.png" alt = "QQ" class = "social-icon"></a>
+        <a href = "http://www.weixin.com"><img src = "img/weixin.png" alt = "微信" class = "social-icon"></a>
+        <a href = "http://www.weibo.com"><img src = "img/weibo.png" alt = "微博" class = "social-icon"></a>
+        <p>&copy; 2018 GYM</p>
+    </footer>
+	</body>
 </html>

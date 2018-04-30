@@ -13,18 +13,23 @@
 		float:right;
 		}
 		
+		
+	.top{
+		height:120px;
+		}
+	
 	.me{
 		position:absolute;
 		top:70px;
-		left:5%;
+		left:8%;
 		width:25%;
-		height:120px;
+		height:130px;
 		}
 		
 	.motto{
 		font-size:0.9em;
-		width:40%;
-		margin:8% 25% 0 35%;
+		width:45%;
+		margin:6% 15% 0 40%;
 		}
 		
 	nav li{
@@ -33,13 +38,16 @@
 		
 	nav a{
 		font-weight:400;
-		padding:3px 8px;
+		padding:2px 5px;
 		}
 		
 	header{
 		margin:-7px 0 80px 0;
 		}
 		
+	.drop-down-content{
+		width:70px;
+		}
 		
 	/* *******************
 	PAGE VIDEO
@@ -57,6 +65,13 @@
 	.myself-photo{
 		float:left;
 		margin:0 5% 80px 0;
+		}
+		
+	/*定义页脚*/
+	footer{
+		padding-top:10px;
+		padding-bottom:10px;
+		font-size:0.75em;
 		}
 	
 	}
