@@ -198,12 +198,12 @@ App
 	}
 
 #SmartCarsControl_icon img{
-	padding:3% 0 2% 13%;
+	padding:3% 0 5% 13%;
 	}
 
 #SmartCarsControl h3{
 	text-align:center;
-	padding:0 0 0 0;
+	padding:1% 0 0 0;
 	font-size:1.7em;
 	}
 	
@@ -215,6 +215,7 @@ App
 	
 #SmartCarsControl p{
 	text-align:center;
+	padding:0 0 1% 0;
 	}
 
 #SmartCarsControl h3:hover{
