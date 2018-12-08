@@ -68,6 +68,7 @@ body{
 	font-size:1.2em;
 	text-align:center;
 	padding:5px 15px;
+	font-family:"Times New Roman", Times, serif;
 	}
 
 #paper{
@@ -421,13 +422,6 @@ PAGE CONTACT
 .contact-info li.mail a{
 	background-image:url('../img/mail.png')
 	}*/
-
-
-.csu-photo{
-	display:block;
-	max-width:300px;
-	margin:0 auto 30px;
-	}
 
 
 /* *******************
