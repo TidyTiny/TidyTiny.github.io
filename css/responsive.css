@@ -1,4 +1,4 @@
-@media screen and (max-width:480px){
+@media screen and (max-width:650px){
 	/* *******************
 	TWO COLUMN LAYOUT
 	******************* */
@@ -71,32 +71,38 @@
 	
 	#SmartCarsControl_icon{
 		width:80%;
+		height:20%;
 		margin:0 10% 0 10%;
 	}
 	
 	#SmartCarsControl_icon img{
 		width:30%;
+		height:100%;
 		padding:3% 35% 3% 35%;
 		}
 	
 	#SmartCarsControl{
 		width:80%;
+		height:35%;
 		margin:0 10% 10% 10%;
 	}
 	
 	
 	#LaTex_Help_icon{
 		width:80%;
+		height:20%;
 		margin:0 10% 0 10%;
 	}
 	
 	#LaTex_Help_icon img{
 		width:30%;
+		height:100%;
 		padding:3% 35% 3% 35%;
 		}
 	
 	#LaTex_Help{
 		width:80%;
+		height:35%;
 		margin:0 10% 0 10%;
 	}
 	

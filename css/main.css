@@ -223,17 +223,21 @@ App
 #SmartCarsControl_icon{
 	float:left;
 	width:15%;
+	height:160px;
 	margin:0 0 5% 10%;
 	}
 
 
 #SmartCarsControl{
 	width:80%;
+	height:160px;
 	margin:0 5% 5% 10%;
 	}
 
 #SmartCarsControl_icon img{
-	padding:3% 0 5% 13%;
+	width:80%;
+	height:80%;	
+	padding:10% 10% 10% 10%;
 	}
 
 #SmartCarsControl h3{
@@ -261,21 +265,24 @@ App
 	color:#999;
 	}
 	
-	
 #LaTex_Help_icon{
 	float:right;
 	width:15%;
+	height:160px;
 	margin:0 10% 0 0;
 	}
 
 
 #LaTex_Help{
 	width:80%;
+	height:160px;
 	margin:0 5% 5% 10%;
 	}
 
 #LaTex_Help_icon img{
-	padding:3% 0 2% 13%;
+	width:80%;
+	height:80%;	
+	padding:10% 10% 10% 10%;
 	}
 
 #LaTex_Help h3{
@@ -466,7 +473,7 @@ h1,h2{
 	}	
 
 #LaTex_Help p{
-	color:#fff;
+	color:#000;
 	}
 
 /*页面底部的链接*/	
