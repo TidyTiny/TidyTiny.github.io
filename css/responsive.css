@@ -1,4 +1,4 @@
-@media screen and (max-width:650px){
+@media screen and (max-width:800px){
 	/* *******************
 	TWO COLUMN LAYOUT
 	******************* */
@@ -103,7 +103,7 @@
 	#LaTex_Help{
 		width:80%;
 		height:35%;
-		margin:0 10% 0 10%;
+		margin:0 10% 10% 10%;
 	}
 	
 		
